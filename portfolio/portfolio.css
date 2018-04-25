@@ -1,0 +1,91 @@
+    /*#eeeeee • #dddddd • #cccccc • #bbbbbb • #29a8ab*/
+    /*font-family: 'Roboto Slab', serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;*/
+    
+    h1 {
+        font-size: 50px;
+        font-family: 'Nanum Gothic', sans-serif;
+        background: #29a8ab;
+        text-align: center;
+        padding-top: 35px;
+        padding-bottom: 15px;
+        margin: 0;
+    }
+    
+    body {
+        margin: 0px;
+        background: #eeeeee;
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px
+    }
+    
+    p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    #nav-bar {
+        font-family: 'Dosis', sans-serif;
+        background: #dddddd;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: center;
+    }
+    /*div {
+    float: left;
+}
+
+div li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+    display: inline
+}
+
+
+/* Change the link color to #111 (black) on hover */
+    
+    div li:hover {
+        background-color: #111;
+    }
+    
+    .active {
+        background-color: #bbbbbb;
+    }
+    
+    a:link,
+    a:visited {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    #one,
+    #two,
+    #three,
+    #four {
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-bottom: 55px;
+    }
+    
+    .mepic {
+        width: 25%;
+        height: 25%;
+        text-align: center;
+        margin-left: 35%;
+        margin-right: 35%;
+    }

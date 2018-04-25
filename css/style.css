@@ -1,0 +1,256 @@
+/*csslint ids: false, box-model: false*/
+
+/* ==============================================================================================
+General
+=================================================================================================
+*/
+
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    /*margin is 0 for all sides*/
+    margin: 0 auto;
+    /*max width is related to width but gives flexibility that it can be smaller*/
+    max-width: 940px;
+    /*values first one is top and bottom, second one is left and right*/
+    padding: 0 5%;
+}
+
+#logo {
+    margin: 0;
+    /*our name and description of who we are */
+    text-align: center;
+}
+
+header {
+    background-color: dodgerblue;
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.social-media-icon {
+    height: 200px;
+    margin: 0 5px;
+    width: 200px;
+}
+
+h1 {
+    background-color: midnightblue;
+    color: #aaa;
+    font-size: 2.5em;
+    margin: 15px 0;
+}
+h2 {
+    color: indigo;
+}
+img {
+    max-width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+h3 {
+    margin: 0 0 1em 0;
+}
+
+
+/*===============================================================================================
+About Me Page
+=================================================================================================
+*/
+
+.profile-photo {
+    border-radius: 15%;
+    display: block;
+}
+
+
+/*===============================================================================================
+About Me Page
+=================================================================================================
+*/
+
+.contact-info {
+    font-size: 0.9em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info a {
+    /*by default, background images are always repeated*/
+    background-repeat: no-repeat;
+    /*resize background image*/
+    background-size: 20px 20px;
+    display: block;
+    margin: 0 0 10px;
+    min-height: 20px;
+    padding: 0 0 0 30px;
+}
+
+.contact-info .mail a {
+    background-image: url(../img/Mail.png);
+}
+
+
+/*===============================================================================================
+Colors
+=================================================================================================
+*/
+
+header {
+    background-color: dodgerblue;
+    opacity: 0.9;
+}
+
+nav {
+    background-color: teal;
+}
+
+nav a,
+nav a:visited {
+    color: #fff;
+}
+
+nav .selected,
+nav a:hover {
+    color: mediumblue;
+}
+
+
+/*===============================================================================================
+Media Queries
+=================================================================================================
+*/
+
+/*Felt no need for Media queries after testing and implementing. I understand the concept, I simply don't want it.*/
+
+/*===============================================================================================
+Page Portfolio
+=================================================================================================
+*/
+
+#gallery {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#gallery li {
+    background-color: lightgrey;
+    color: #bdc3c7;
+    float: left;
+    margin: 2.5%;
+    width: 45%;
+}
+
+#icons {
+    text-align: center;
+}
+
+#gallery li a p {
+    clear: both;
+    font-size: 0.75em;
+    margin: 0;
+    padding: 5%;
+}
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+   font-size: 30px;
+   margin-bottom: 40px;
+}
+section.module p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 600px;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+section.module.parallax-1 {
+  background-image: url("../img/Pasten.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../img/Futurist.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../img/End.jpg");
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
